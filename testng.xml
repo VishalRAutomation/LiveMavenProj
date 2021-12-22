@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="LiveProj.Listeners"/>
+</listeners>>
+  
+   <test name="ValidateTitleTest">
+    <classes>
+      <class name="LiveProj.validatetitle"/>
+    </classes>   
+  </test> <!-- Test -->
+  
+   <test name="HomepageTest">
+    <classes>
+      <class name="LiveProj.homepage"/>
+    </classes>   
+  </test> <!-- Test -->
+  
+   <test name="ValidateNavBarTest">
+    <classes>
+      <class name="LiveProj.validatebar"/>
+    </classes>   
+  </test> <!-- Test -->
+  
+   <test name="AppTest">
+    <classes>
+      <class name="LiveProj.AppTest"/>
+    </classes>   
+  </test> <!-- Test -->
+  
+  
+    
+  
+  
+  
+</suite> <!-- Suite -->

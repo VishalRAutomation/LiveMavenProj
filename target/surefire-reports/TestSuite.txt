@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 360.175 s <<< FAILURE! - in TestSuite
+LiveProj.homepage.getlogin[vishal@gmail.com, 12345678, Restricted User](1)  Time elapsed: 41.744 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (887, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-JROTBF7', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.18 (b8887b3d1742a..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37da1613a30f2507ed68d5c3f3d9afee
+	at LiveProj.homepage.getlogin(homepage.java:33)
+
+LiveProj.homepage.getlogin[rawat@gmail.com, 123456789, Non Restricted User](2)  Time elapsed: 45.718 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (887, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-JROTBF7', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.18 (b8887b3d1742a..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13041552f7c30f87ae0ff4dc02ee04a7
+	at LiveProj.homepage.getlogin(homepage.java:33)
+
